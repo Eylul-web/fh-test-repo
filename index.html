@@ -1,1 +1,83 @@
-https://eylulwieger-1.eylulw.repl.co/#employmentsectionh3id 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<title>Responsive Resume Eylul Wieger</title>
+	<link rel="stylesheet" href="style.css">
+  <head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<img src="grogu (2).PNG" width="300px" />
+        <h1>Eylül WIEGER</h1>
+     </div>
+  <nav>
+    <ul class="showing">
+      <li class="nav-item"><a href="#profilesectionh3id">how to clone & push to and from the test repository https://github.com/renes/fh-test-repo</a></li>
+      <li class="nav-item"><a href="#techskillsh3id">How to start a docker container</a></li>
+      <li class="nav-item"><a href="#educationsectionh3id">How to expose a docker port</a></li>
+      <li class="nav-item"><a href="#employmentsectionh3id">How to stop a docker container</a></li>
+ 
+    </ul>
+    <div class="handle">Menu</div>
+  </nav>
+  <div class="main-content">          
+
+<img src="brain.PNG" width="400px" />
+  <div class="profilesectiondiv" id="profileid">
+    <section class="sectiontitle">
+      <h3 id="profilesectionh3id">How to clone & push to and from the test repository</h3>
+        <p> When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. If it belongs to anyonelse you can use the fork option links above.</p>
+  <p> HOW TO CLONE FROM THE TEST REPOSITORY
+<p> To clone a repository use following command:"git clone https://github.com/renes/fh-test-repo" </p>
+<p> Validation: Go to the local repository- project folder use following command: "Git status" </p>
+<p> HOW TO PUSH  THE TEST REPOSITORY
+<p> To clone a repository use following command: "git push" </p>
+<p> Validation: After you’ve pushed your commits, visit your repository on GitHub and notice that your changes are reflected there, and also that you have access to the full commit history for your repository! </p>
+    </section>
+ </div>
+    <div class="skillssectiondiv" id="techskills">
+      <section class="sectiontitle">
+        <h3 id="techskillsh3id">How to start a docker container</h3>
+        <p>  If the container already exist. You can start your docker container with the following command "docker start [OPTIONS] CONTAINER [CONTAINER...]"</p>
+        <p> Forexample: "$ docker start my_container" </p>
+        <p> if you want to start a container from an image used the following command: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]</p>
+        <p> Forexample $ docker run --name test -it debian </p>
+        <p> Validation: "Sudo docker ps" or "sudo docker container ls" </p>
+    </div>
+    
+    <div class="educationsectiondiv sectiontitle">
+        <h3 id="educationsectionh3id">How to expose a docker port</h3>
+  <p>  </p>
+        <p> If you want to expose a container, use the command: " docker run -i --expose=network_name container_name bash" </p>
+
+       <p> Forexample "$ docker run -i --expose=80 b5593e60c33b bash" or you can use the command with multiple -p option for port mapping as like: "docker run -d -p 80:80 -p 5802:5802 ....."" </p>
+       <p> Validation: "Sudo docker ps" or "sudo docker container ls" </p>
+</div>
+ 
+    <div class="educationsectiondiv sectiontitle">
+        <h3 id="educationsectionh3id">How to stop a docker container</h3>
+  <p> You can stop your docker container with the following command " docker container stop [OPTIONS] CONTAINER [CONTAINER...]
+"</p>
+        <p> Forexample: "$ docker container stop my_container" </p>
+          <p> Validation: "Sudo docker ps" or "sudo docker container ls" </p>
+</div>
+ 
+     
+      </div>
+  </section>
+  </div>
+
+</section>
+ </div>
+</div>
+<div> 
+</div>
+  </div> 
+<div class="copyrightetal">
+  <p>&copy; 2021 </p>
+</div>
+  </div></div>
+  </body>
+</html>
